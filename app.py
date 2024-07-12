@@ -36,6 +36,6 @@ def index():
     return render_template('index.html', weather_data=None)
 
 if __name__ == "__main__":
-    #app.run(debug=True,port=8080)
-    app.run(port=int(os.environ.get("PORT", 8080)),host='0.0.0.0',debug=True)
+    #app.run(debug=True,port=8282)
+    app.run(port=int(os.environ.get("PORT", 8282)),host='0.0.0.0',debug=True)
 
